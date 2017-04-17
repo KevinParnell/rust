@@ -45,7 +45,7 @@ impl Game {
   }
 
   pub fn get_board(&self) -> String {
-    // Intialise the top of our game board.
+    // Initialize the top of the game board.
     let mut result = "  A B C \n".to_string();
     result.push_str(" ┌─┬─┬─┐\n");
 
